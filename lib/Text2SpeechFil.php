@@ -5,7 +5,7 @@ class Text2SpeechFil
 {
     private $text;
     private $voice;
-    private $baseUrl = 'https://play.ht/api/transcribe';
+    private static $baseUrl = 'https://play.ht/api/transcribe';
     private $result;
 
     /**
