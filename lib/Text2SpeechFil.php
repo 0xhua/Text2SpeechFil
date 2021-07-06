@@ -62,6 +62,6 @@ class Text2SpeechFil
 
     }
 }
-
-$test = new Text2SpeechFil('edilson ag si ow di tan ah','fil-PH-Wavenet-C');
-var_dump($test->t2s());
+##EXAMPLE
+//$test = new Text2SpeechFil('edilson ag si ow di tan ah','fil-PH-Wavenet-C');
+//var_dump($test->t2s());
