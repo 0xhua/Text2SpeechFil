@@ -30,7 +30,7 @@ class Text2SpeechFil
         ]);
         $curl->post(
             array(
-                $this->baseUrl => json_encode(array(
+                self::$baseUrl => json_encode(array(
                     'userId'=>'public-access',
                     'ssml' => "<speak><p>'.$this->text.'</p></speak>",
                     'voice' =>  $this->voice,
