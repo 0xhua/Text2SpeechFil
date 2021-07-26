@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6166d5bcc7600f34bd3b0cac991379c0",
+    "content-hash": "b192bf8f598a7c0a5858d3a242be35e0",
     "packages": [
         {
             "name": "stefangabos/zebra_curl",
@@ -64,7 +64,10 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }

@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4fceddb77decf2a470268f033c695faff23b4a5e',
+    'reference' => '4e4b1652a46695d26c076882aabc5aefdc877447',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4fceddb77decf2a470268f033c695faff23b4a5e',
+      'reference' => '4e4b1652a46695d26c076882aabc5aefdc877447',
     ),
     'stefangabos/zebra_curl' => 
     array (
